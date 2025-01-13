@@ -19,7 +19,6 @@ class DocumentServiceImpl : DocumentService {
                     }
 
                     if (value != null) {
-                        Log.i(TAG, "Got it!")
                         Log.i(TAG, "${value.data?.get("xValues")}")
                         value.toObject(TestDocument::class.java)?.let { trySend(it) }
                     }
