@@ -26,7 +26,7 @@ fun CapstoneApp(
 
         NavHost(
             navController = appState.navController,
-            startDestination = NavigationItem.ReportScreen.route,
+            startDestination = NavigationItem.StatsScreen.route,
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPaddingModifier)

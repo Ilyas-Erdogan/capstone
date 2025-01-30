@@ -13,7 +13,7 @@ composeBom = "2024.12.01"
 uiTextGoogleFonts = "1.7.6"
 navigationRuntimeKtx = "2.8.5"
 navigationCompose = "2.8.5"
-vico = "1.16.0"
+vico = "2.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
